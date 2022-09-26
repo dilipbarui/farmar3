@@ -1,0 +1,749 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.hamber{
+  display: none;
+}
+.collapse{
+  justify-content: center!important;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  padding: 0 50px;
+}
+.header{
+  background-color: black;
+}
+.company-icon{
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+}
+
+.company-icon .company-icon-para a .location{
+  color: yellow!important;
+  padding-right: 8px;
+}
+
+.company-icon .company-icon-para a{
+  text-decoration: none;
+  color: #fff;
+  padding-right: 15px;
+}
+.company-icon .company-icon-para a:hover{
+  color: yellow;
+}
+.company-socil{
+  text-align: right;
+}
+.company-socil i{
+  padding: 0px 6px;
+  color: #fff;
+}
+
+.header-menu{
+  padding: 10px 0px 10px 25px;
+  margin-bottom: 10px;
+}
+
+
+.header-icon{
+  position: relative;
+  text-align: right;
+}
+.header-icon ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-icon ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
+.header-icon ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+
+}
+
+.header-icon ul li .header-bottom{
+  font-size: 16px;
+  background: green;
+  padding: 15px 9px 15px 20px;
+  color: #ffffff!important;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
+.header-icon ul li .header-bottom .bottom-span{
+  margin-left: 12px;
+  background: yellow;
+  font-size: 14px;
+  color: #000000;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
+
+.header-contact{
+  position: relative;
+  text-align: center;
+}
+.header-contact i{
+  color: green;
+  border-radius: 100px;
+  border: 2px solid #000000;
+  font-size: 20px;
+  padding: 13px;
+  margin-top: 25px;;
+}
+
+/*==================== header css end =======================*/
+
+    /*========================== banner css start ===========================*/
+
+    .about-list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #dbdbdb36;
+        padding: 5px;
+        border-radius: 20px;
+        width: 190px;
+        margin: 0 auto;
+    }
+    .about-list li {
+        display: inline-block;
+        font-size: 16px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 600;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+    .about-list li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      margin-right: 10px;
+      color: yellow!important;
+    }
+    .banner-title h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+        font-size: 48px;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 1.7;
+    }
+    .about-banner {
+        position: relative;
+        background-image: url(../images/page-header-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 150px 0 150px 0;
+    }
+    .about-banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 30%);
+    }
+
+
+    /*================== High Quality Products css start ====================*/
+
+    .high-quality {
+        position: relative;
+    }
+    .high {
+        position: relative;
+    }
+    .row-up {
+        position: absolute;
+        bottom: -75px;
+        left: 83%;
+        right: -164px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffcd1e;
+        padding: 30px;
+        border-radius: 20px 0 0 0;
+    }
+    .img-wrap img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .row-up p {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .row-up i {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .high-right-contact {
+        position: relative;
+        padding: 160px 50px 50px 50px;
+    }
+    .span-para {
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 18px;
+        color: #9dbe91;
+        font-weight: 500;
+        z-index: 1;
+    }
+    .high-right-contact h1 {
+        margin: 0;
+        color: #fff;
+        font-size: 60px;
+        line-height: 1.3;
+        font-weight: 700;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+        font-family: 'Amatic SC', cursive;
+        margin-right: 285px;
+        position: relative;
+    }
+    .high-right-contact h1::after {
+        content: "";
+        position: absolute;
+        bottom: -30%;
+        left: 0;
+        width: 55px;
+        height: 28px;
+        background-image: url(../images/section-title-icon-1.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+    }
+    .high-right-contact p {
+       color: #9dbe91;
+        padding-bottom: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        padding-right: 391px;
+        margin-top: 50px;
+    }
+    .progress-round {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto!important;
+    }
+    .persenteg {
+        font-size: 20px!important;
+        font-family: 'DM Sans'!important;
+        margin-right: 40px;
+        font-weight: 600;
+        border: solid 2px #ffcd1e;
+        padding: 30px 25px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .progress-round h3 {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #fff;
+        font-family: 'Amatic SC', cursive;
+        text-transform: uppercase;
+    }
+    .high {
+        position: relative;
+        background: #1f6306;
+        padding: 0!important;
+    }
+    .meet-title span {
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 18px;
+        color: #1f6306;
+        font-weight: 500;
+        z-index: 1;
+    }
+    .meet-title h1 {
+        margin: 0;
+        color: #0e2207;
+        font-size: 60px;
+        line-height: 72px;
+        font-weight: 700;
+        font-family: 'Amatic SC', cursive;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+    }
+    .farmers-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        border-radius: 50% 50% 0 50%;
+    }
+    .meet-farmers-img {
+        position: relative;
+    }
+    .share-icon {
+        position: absolute;
+        bottom: 42px;
+        left: 92%;
+        transform: translate(-50%, -50%);
+        background: #ffcd1e;
+        padding: 16px 24px;
+        border-radius: 50% 50% 0 50%;
+        font-size: 24px;
+    }
+    .meet-contant h4 {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 20px;
+        text-align: right;
+        margin: 0;
+    }
+    .meet-contant p {
+        font-family: 'Roboto', sans-serif;
+        color: #75787394;
+        font-size: 16px;
+        line-height: 1.7;
+        font-weight: 600;
+        text-align: right;
+        margin: 0;
+    }
+    .meet-column {
+        margin-top: 60px!important;
+    }
+    .met-farmers {
+        position: relative;
+        padding: 130px 0 100px 0;
+    }
+
+
+
+    /*================ footer css start ================*/
+
+    .f-logo img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .fb-para {
+        font-weight: 700;
+        color: #fff;
+        font-size: 16px;
+        padding-top: 20px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        padding-right: 50px;
+        line-height: 1.7;
+    }
+    .footer-column h4 {
+        font-size: 20px;
+        color: #fff;
+        line-height: 28px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 20px;
+    }
+    .footer-list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .footer-list li {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #869780;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        line-height: 2.5;
+        z-index: 1;
+    }
+    .footer-list li:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+    .footer-list i {
+        margin-right: 10px;
+        font-size: 12px;
+        color: #ffcd1e;
+    }
+    .fd-col img {
+        position: relative;
+        width: 75px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    .fd-col span {
+        font-size: 12px;
+        font-weight: 700;
+        color: #ffcd1e;
+        line-height: 25px;
+        padding-left: 30px;
+    }
+    .fd-col p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25px;
+        font-family: #000;
+        padding-left: 30px;
+        padding-right: 50px;
+        color: #fff;
+    }
+    .footer {
+        position: relative;
+        background-color: rgb(14 34 7 / 100%);
+        padding: 100px 0 100px 0;
+    }
+    .input-contant input {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    .footer-column {
+        position: relative;
+    }
+    .input-contant i {
+        position: absolute;
+        bottom: -4px;
+        left: 87%;
+        transform: translate(-50%, -50%);
+        color: #000;
+        background: yellow;
+        padding: 12px 13px;
+        border-radius: 50%;
+    }
+    .input-contant input::-webkit-input-placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 600;
+        color: gray;
+        opacity: 1;
+    }
+    .input-contant input:-ms-input-placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 600;
+        color: gray;
+        opacity: 1;
+    }
+    .input-contant input::placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 400;
+        color: gray;
+        opacity: 1;
+    }
+
+
+    /* ======== responsive ======== */
+    @media (min-width:1401px) and (max-width:1660px){
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 35px;
+      }
+    }
+
+    @media (min-width:1201px) and (max-width:1400px) {
+
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 20px!important;
+      }
+      .input-contant i {
+          bottom: 29px!important;
+          left: 85%!important;
+        }
+    }
+
+
+    @media (min-width:1024px) and (max-width:1200px){
+
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 6px;
+      }
+      .input-contant i {
+        bottom: -12px!important;
+        left: 81%!important;
+      }
+      .fd-col span {
+        padding-left: 44px;
+      }
+      .fd-col p {
+        font-size: 15px!important;
+        padding-left: 46px!important;
+        padding-right: 0px!important;
+      }
+    }
+
+
+
+    @media (min-width:992px) and (max-width:1023px){
+      .collapse .navbar-nav .nav-item .nav-link {
+        padding: 0 5px;
+      }
+      .input-contant i {
+        bottom: -12px!important;
+        left: 81%!important;
+      }
+      .fd-col span {
+        padding-left: 44px;
+      }
+      .fd-col p {
+        font-size: 15px!important;
+        padding-left: 46px!important;
+        padding-right: 0px!important;
+      }
+
+    }
+
+
+    @media (min-width:768px) and (max-width:991px) {
+      .navbar-brand img{
+        width: 60%;
+      }
+
+      #mynav{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        z-index: 999;
+      }
+
+    .hamber{
+      display: block;
+      border: 2px solid #000000;
+      padding: 5px 18px;
+    }
+    .hamber a{
+      color: #000000!important;
+      font-size: 25px;
+      text-decoration: none;
+    }
+    #navbarSupportedContent ul .nav-item{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      padding: 10px 0;
+      border:1px solid #green;
+    }
+
+    }
+    @media (min-width:576px) and (max-width:767px) {
+      .navbar-brand img{
+        width: 50%;
+      }
+
+      .header{
+        display: none;
+      }
+      .header-icon{
+        display: none;
+      }
+      #mynav{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        z-index: 999;
+      }
+
+    .hamber {
+        display: block;
+        border: 1px solid #000000;
+        padding: 3px 15px;
+    }
+    .hamber a{
+      color: #000000!important;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    #navbarSupportedContent ul .nav-item{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      padding: 10px 0;
+      border:1px solid #green;
+    }
+
+    .input-contant i {
+      bottom: -9px!important;
+    }
+    }
+
+
+        /* ======== media 576px css start ======== */
+
+        @media (min-width:361px) and (max-width:575px) {
+          .navbar-brand img{
+            width: 50%;
+          }
+
+          .header{
+            display: none;
+          }
+          .header-icon{
+            display: none;
+          }
+          #mynav{
+            position: sticky;
+            overflow: hidden;
+            top: 0;
+            z-index: 999;
+          }
+
+        .hamber {
+            display: block;
+            border: 1px solid #000000;
+            padding: 3px 15px;
+        }
+        .hamber a{
+          color: #000000!important;
+          font-size: 20px;
+          text-decoration: none;
+        }
+        #navbarSupportedContent ul .nav-item{
+          width: 100%;
+          position: relative;
+          text-align: center;
+          padding: 10px 0;
+          border:1px solid #green;
+        }
+
+        .input-contant i {
+          bottom: -9px!important;
+        }
+
+        }
+
+
+
+          /* ========= media 36px css start ======= */
+
+          @media (min-width:321px) and (max-width:360px) {
+
+            .navbar-brand img{
+              width: 50%;
+            }
+
+            .header{
+              display: none;
+            }
+            .header-icon{
+              display: none;
+            }
+            #mynav{
+              position: sticky;
+              overflow: hidden;
+              top: 0;
+              z-index: 999;
+            }
+
+          .hamber {
+              display: block;
+              border: 1px solid #000000;
+              padding: 3px 15px;
+          }
+          .hamber a{
+            color: #000000!important;
+            font-size: 20px;
+            text-decoration: none;
+          }
+          #navbarSupportedContent ul .nav-item{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            padding: 10px 0;
+            border:1px solid #green;
+          }
+
+          .input-contant i {
+            bottom: -9px!important;
+          }
+      }
+
+        /* ===== media 320px ==== */
+        @media (min-width:261px) and (max-width:320px) {
+
+          .navbar-brand img{
+            width: 50%;
+          }
+          .header{
+            display: none;
+          }
+          .header-icon{
+            display: none;
+          }
+          #mynav{
+            position: sticky;
+            overflow: hidden;
+            top: 0;
+            z-index: 999;
+          }
+
+        .hamber {
+            display: block;
+            border: 1px solid #000000;
+            padding: 3px 15px;
+        }
+        .hamber a{
+          color: #000000!important;
+          font-size: 20px;
+          text-decoration: none;
+        }
+        #navbarSupportedContent ul .nav-item{
+          width: 100%;
+          position: relative;
+          text-align: center;
+          padding: 10px 0;
+          border:1px solid #green;
+        }
+
+
+
+        .input-contant i {
+          bottom: -9px!important;
+        }
+      }

@@ -1,0 +1,1346 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.hamber{
+  display: none;
+}
+.collapse{
+  justify-content: center!important;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  padding: 0 50px;
+}
+.header{
+  background-color: black;
+}
+.company-icon{
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+}
+
+.company-icon .company-icon-para a .location{
+  color: yellow!important;
+  padding-right: 8px;
+}
+
+.company-icon .company-icon-para a{
+  text-decoration: none;
+  color: #fff;
+  padding-right: 15px;
+}
+.company-icon .company-icon-para a:hover{
+  color: yellow;
+}
+.company-socil{
+  text-align: right;
+}
+.company-socil i{
+  padding: 0px 6px;
+  color: #fff;
+}
+
+.header-menu{
+  padding: 10px 0px 10px 25px;
+  margin-bottom: 10px;
+}
+
+
+.header-icon{
+  position: relative;
+  text-align: right;
+}
+.header-icon ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-icon ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
+.header-icon ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+
+}
+
+.header-icon ul li .header-bottom{
+  font-size: 16px;
+  background: green;
+  padding: 15px 9px 15px 20px;
+  color: #ffffff!important;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
+.header-icon ul li .header-bottom .bottom-span{
+  margin-left: 12px;
+  background: yellow;
+  font-size: 14px;
+  color: #000000;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
+
+.header-contact{
+  position: relative;
+  text-align: center;
+}
+.header-contact i{
+  color: green;
+  border-radius: 100px;
+  border: 2px solid #000000;
+  font-size: 20px;
+  padding: 13px;
+  margin-top: 25px;;
+}
+
+/*==================== header css end =======================*/
+
+    /*========================== banner css start ===========================*/
+
+    .about-list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #dbdbdb36;
+        padding: 5px;
+        border-radius: 20px;
+        width: 190px;
+        margin: 0 auto;
+    }
+    .about-list li {
+        display: inline-block;
+        font-size: 16px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 600;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+      .about-list li a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 16px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 600;
+    }
+    .banner-title h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+        font-size: 48px;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 1.7;
+    }
+    .about-banner {
+        position: relative;
+        background-image: url(../images/page-header-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 150px 0 150px 0;
+    }
+    .about-banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 30%);
+    }
+
+
+        /* ======== services-page ======== */
+
+.services-page{
+  margin-top: 100px;
+}
+.services-two__single{
+  border-radius: 20px;
+}
+.services-two__single .services-two__img img{
+  width: 100%;
+}
+.services-two__content{
+  background-color: #000000;
+  padding: 20px;
+  text-align: right;
+}
+.services-two__content img{
+  width: 50%;
+}
+.services-two__content a{
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff!important;
+  font-size: 17px;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+.align{
+  align-items: center;
+  justify-content: center;
+}
+
+.services-two__content a span{
+  padding-right: 10px;
+}
+
+
+
+
+    .agriculture-services{
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(https://layerdrops.com/agrion/main-html/assets/images/backgrounds/unbeatable-one-bg.jpg);
+      background-attachment: fixed;
+      width: 100%;
+      height: 516.2px;
+      position: relative;
+      margin-top: 100px;
+    }
+    .agriculture-services::after{
+      content: "";
+      background-color: rgb(6 0 0 / 50%);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .agriculture-services-heading{
+      padding-top: 30px;
+      border: 2px solid rgb: 255, 255, 255;
+    }
+    .agriculture-services-heading p{
+      font-size: 18px;
+      color: #ffcd1e;
+      font-weight: 500;
+      line-height: 28px;
+      font-family: 'DM Sans', sans-serif;
+      position: relative;
+      z-index: 9;
+    }
+    .agriculture-services-heading h2{
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 73px;
+      color: #ffffff;
+      font-family: 'DM Sans', sans-serif;
+      letter-spacing: -1px;
+      padding-top: 8px;
+      padding-bottom: 35px;
+      position: relative;
+      z-index: 9;
+    }
+    .agriculture-services-heading h2::after{
+      background-image: url(../images/unbeatable-shape-2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 76px;
+      height: 145px;
+      position: absolute;
+      transform: translate(50%, 50%);
+      top: -75px;
+      left: 75%;
+      content: "";
+    }
+    .agriculture-services-heading h2::before{
+      background-image: url(../images/unbeatable-shape-1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 76px;
+      height: 145px;
+      position: absolute;
+      transform: translate(50%, 50%);
+      top: -75px;
+      left: 13%;
+      content: "";
+    }
+
+    .agriculture-services-button{
+      position: relative;
+
+    }
+    .agriculture-services-button a{
+      text-decoration: none;
+      padding: 18px 26px;
+      background: green;
+      color: #ffffff!important;
+      border-radius: 100px;
+      font-size: 16px;
+      font-family: 'DM Sans', sans-serif;
+      position: relative;
+      z-index: 9;
+      text-transform: capitalize;
+    }
+    .agriculture-services-button a:hover{
+      background: #000000;
+      color: #ffffff;
+    }
+    .services-span{
+      margin-left: 7px;
+      background: yellow;
+      color: #000000;
+      padding: 6px 10px;
+      border-radius: 100px;
+    }
+    .agriculture-services-button a:hover .services-span{
+      background: #ffffff;
+      color: #000000;
+    }
+
+
+
+
+        /* healthy-food */
+
+
+    .healthy-food{
+      margin-top: 100px;
+      position: relative;
+    }
+    .healthy-food::after {
+        content: "";
+        background-color: yellow;
+        position: absolute;
+        top: -100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 680px;
+        height: 616px;
+    }
+    .healthy-food-image{
+      position: relative;
+      text-align: right;
+      padding-right: 80px;
+    }
+    .healthy-food-image img{
+      position: relative;
+      z-index: 9;
+      border-radius: 12px;
+    }
+    .healthy-food-image::after{
+      content: "";
+        background-color: green;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 103px;
+        transform: translate(50px, 50px);
+        width: 74px;
+        height: 430px;
+        border-radius: 16px;
+    }
+
+    .healthy-food-tital{
+      position: relative;
+      padding-right: 60px;
+    }
+    .healthy-food-tital h6{
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 500;
+      color: #1f6306;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .healthy-food-tital h2{
+      font-size: 60px;
+      line-height: 72px;
+      font-weight: 700;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      margin: 0;
+      color: #000000;
+      font-family: 'Amatic SC', cursive;
+      margin: 0;
+    }
+
+    .healthy-food-tital p{
+      font-family: 'DM Sans', sans-serif;
+      color: #757873;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 500;
+      margin: 30px 0;
+    }
+
+    .harvesting{
+      position: relative;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
+      border: 1px solid #ece9e0;
+      padding: 27px 0 25px;
+      z-index: 1;
+    }
+    .harvesting:hover{
+      background-color: rgb(22 125 11 / 80%);
+    }
+    .harvesting i{
+      font-size: 64px;
+      color: #1c6902;
+      transition: all 500ms linear;
+      overflow: hidden;
+    }
+    .harvesting:hover i{
+      color: #ffcd1e;
+      transition: all 500ms linear;
+      transition-delay: 0.1s;
+      transform: scale(.9);
+
+    }
+    .harvesting p{
+      font-size: 18px;
+      font-weight: 700;
+      transition: all 500ms ease;
+      color: #0E2206;
+      font-family: 'DM Sans', sans-serif;
+      margin-top: 15px;
+    }
+
+    .harvesting:hover p{
+      transition: all 500ms ease;
+      color: #ffffff;
+    }
+
+    .services{
+      margin: 100px 0px;
+    }
+    .services-background-images{
+      background-image: url(../images/services-one-shape-1.png);
+      height: 500px;
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+      width: 100%;
+      position: relative;
+        z-index: -1;
+    }
+    .services-background-images::after{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(252 223 223 / 50%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: "";
+    }
+
+    .services-para{
+      position: relative;
+      padding-top: 50px;
+      opacity: 2;
+      z-index: 4;
+    }
+    .services-para p{
+      font-family: 'DM Sans', sans-serif;
+      font-size: 18px;
+      line-height: 18px;
+      color: #1f6306;
+      font-weight: 500;
+      z-index: 1;
+      opacity: 1;
+      position: relative;
+    }
+    .services-para h2{
+      margin: 0;
+      color: #0e2207;
+      font-size: 60px;
+      line-height: 72px;
+      font-weight: 700;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      font-family: 'Amatic SC', cursive;
+      position: relative;
+      opacity: 1;
+      z-index: 1;
+    }
+
+        /* services-2 */
+
+    .services-2{
+      margin-top: -350px;
+    }
+    .services-colmun{
+      padding: 50px 49px 44px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid transparent;
+      box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 5%);
+      -webkit-transition: all 500ms ease;
+      transition: all 500ms ease;
+      margin-bottom: 30px;
+      text-align: center;
+      border-radius: 18px;
+    }
+    .services-colmun:hover{
+      -webkit-transition: all 500ms ease;
+      transition: all 500ms ease;
+      border: 2px solid yellow;
+    }
+    .services-colmun:hover .services-colmun-logo i{
+      background: yellow;
+      color: #000000;
+    }
+
+    .services-colmun .services-colmun-images{
+      position: relative;
+    }
+    .services-colmun .services-colmun-images img{
+      border-radius: 100%;
+    }
+    .services-colmun .services-colmun-images img:hover{
+      background: rgba(255, 0, 0, 0.5);
+    }
+
+    .services-colmun-logo{
+      margin-top: -48px;
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .services-colmun-logo i{
+      font-size: 32px;
+      padding: 23px 20px;
+      background: green;
+      color: #ffffff;
+      border-radius: 100px;
+        transition: 0.5s;
+    }
+    /* .services-colmun-logo i:hover{
+      background: yellow;
+      color: #000000;
+    } */
+
+    .services-colmun-para{
+      position: relative;
+    }
+    .services-colmun-para h3{
+      font-size: 24px;
+      font-weight: 700;
+      font-family: 'DM Sans', sans-serif;
+      line-height: 28px;
+      padding-bottom: 15px!important;
+    }
+    .services-colmun-para h3 a{
+      text-decoration: none;
+      color: #0e2207;
+    }
+    .services-colmun-para h3:hover a{
+      color: #2b6504;
+    }
+    .services-colmun-para p{
+      font-family: 'DM Sans', sans-serif;
+      color: #ffcd1e;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 500;
+    }
+    .envata-section{
+      border-top: 1px solid #e7cdcd;
+    }
+
+
+    /*================ footer css start ================*/
+    .footer{
+      margin-top: 100px;
+    }
+    .f-logo img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .fb-para {
+        font-weight: 700;
+        color: #fff;
+        font-size: 16px;
+        padding-top: 20px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        padding-right: 50px;
+        line-height: 1.7;
+    }
+    .footer-column h4 {
+        font-size: 20px;
+        color: #fff;
+        line-height: 28px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 20px;
+    }
+    .footer-list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .footer-list li {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #869780;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        line-height: 2.5;
+        z-index: 1;
+    }
+    .footer-list li:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+    .footer-list i {
+        margin-right: 10px;
+        font-size: 12px;
+        color: #ffcd1e;
+    }
+    .fd-col img {
+        position: relative;
+        width: 75px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    .fd-col span {
+        font-size: 12px;
+        font-weight: 700;
+        color: #ffcd1e;
+        line-height: 25px;
+        padding-left: 30px;
+    }
+    .fd-col p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25px;
+        font-family: #000;
+        padding-left: 30px;
+        padding-right: 50px;
+        color: #fff;
+    }
+    .footer {
+        position: relative;
+        background-color: rgb(14 34 7 / 100%);
+        padding: 100px 0 100px 0;
+    }
+    .input-contant input {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    .footer-column {
+        position: relative;
+    }
+    .input-contant i {
+        position: absolute;
+        bottom: -4px;
+        left: 87%;
+        transform: translate(-50%, -50%);
+        color: #000;
+        background: yellow;
+        padding: 12px 13px;
+        border-radius: 50%;
+    }
+    .input-contant input::-webkit-input-placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 600;
+        color: gray;
+        opacity: 1;
+    }
+    .input-contant input:-ms-input-placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 600;
+        color: gray;
+        opacity: 1;
+    }
+    .input-contant input::placeholder {
+        font-size: 16px;
+        padding-left: 20px;
+        font-weight: 400;
+        color: gray;
+        opacity: 1;
+    }
+
+
+
+
+    /* ======== responsive ======== */
+    @media (min-width:1401px) and (max-width:1660px){
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 35px;
+      }
+    }
+
+    @media (min-width:1201px) and (max-width:1400px) {
+
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 20px!important;
+      }
+      .input-contant i {
+          bottom: -5px!important;
+          left: 85%!important;
+        }
+        .agriculture-services-heading h2::before {
+          left: 11%;
+        }
+        .healthy-food::after {
+          width: 300px;
+        }
+        .services-colmun .services-colmun-images img{
+          width: 100%;
+        }
+        .services-colmun-logo i {
+    font-size: 20px;
+    padding: 23px 20px;
+    background: green;
+    color: #ffffff;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.fd-col p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: #000;
+    padding-left: 42px;
+    padding-right: 6px;
+    color: #fff;
+}
+.fd-col span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffcd1e;
+    line-height: 25px;
+    padding-left: 42px;
+}
+    }
+
+
+    @media (min-width:1024px) and (max-width:1200px){
+      .agriculture-services-heading h2::before{
+        left: 3%;
+      }
+      .agriculture-services-heading h2::after{
+        left: 81%;
+      }
+      .healthy-food::after {
+        width: 324px;
+      }
+      .services-colmun .services-colmun-images img{
+        width: 100%;
+      }
+      .services-colmun-logo i {
+    font-size: 20px;
+    padding: 16px 15px;
+    background: green;
+    color: #ffffff;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.services-colmun-logo {
+  margin-top: -32px;
+}
+.services-colmun{
+  padding: 20px 20px 20px;
+}
+
+      .collapse .navbar-nav .nav-item .nav-link{
+        padding: 0 6px;
+      }
+      .input-contant i {
+        bottom: -12px!important;
+        left: 81%!important;
+      }
+      .fd-col span {
+        padding-left: 44px;
+      }
+      .fd-col p {
+        font-size: 15px!important;
+        padding-left: 46px!important;
+        padding-right: 0px!important;
+      }
+    }
+
+
+
+    @media (min-width:992px) and (max-width:1023px){
+      .agriculture-services-heading h2::after {
+        left: 80%;
+      }
+      .agriculture-services-heading h2::before{
+        left: 3%;
+      }
+      .healthy-food::after{
+        width: 300px;
+      }
+      .harvesting {
+        padding: 8px 0 0px;
+      }
+      .services-colmun .services-colmun-images img{
+        width: 100%;
+      }
+      .services-colmun-logo i {
+              font-size: 16px;
+              padding: 14px 12px;
+              background: green;
+              color: #ffffff;
+              border-radius: 100px;
+              transition: 0.5s;
+          }
+          .services-colmun-logo {
+            margin-top: -33px;
+          }
+        .services-colmun{
+          padding: 20px 20px 20px;
+        }
+
+      .collapse .navbar-nav .nav-item .nav-link {
+        padding: 0 5px;
+      }
+      .input-contant i {
+        bottom: -12px!important;
+        left: 81%!important;
+      }
+      .fd-col span {
+        padding-left: 44px;
+      }
+      .fd-col p {
+        font-size: 15px!important;
+        padding-left: 46px!important;
+        padding-right: 0px!important;
+      }
+
+    }
+
+
+    @media (min-width:768px) and (max-width:991px) {
+      .healthy-food-image {
+        margin-bottom: 50px;
+      }
+      .agriculture-services-heading h2 {
+        font-size: 42px;
+        line-height: 60px;
+      }
+      .agriculture-services-heading h2::before{
+        left: 3%;
+      }
+      .agriculture-services-heading h2::after{
+        left: 77%;
+      }
+      .healthy-food::after{
+        width: 448px;
+      }
+      .navbar-brand img{
+        width: 60%;
+      }
+
+      #mynav{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        z-index: 999;
+      }
+
+    .hamber{
+      display: block;
+      border: 2px solid #000000;
+      padding: 5px 18px;
+    }
+    .hamber a{
+      color: #000000!important;
+      font-size: 25px;
+      text-decoration: none;
+    }
+    #navbarSupportedContent ul .nav-item{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      padding: 10px 0;
+      border:1px solid #green;
+    }
+
+    }
+    @media (min-width:576px) and (max-width:767px) {
+      .healthy-food::after {
+        width: 325px;
+      }
+      .healthy-food-image::after {
+        right: 65px;
+      }
+      .services-two__content{
+        margin-bottom: 20px;
+      }
+      .services-two__content img {
+        width: 40%;
+      }
+      .agriculture-services-heading h2 {
+        font-size: 30px;
+        line-height: 45px;
+      }
+      .agriculture-services-heading h2::before{
+        left: 0%;
+      }
+      .agriculture-services-heading h2::after {
+        left: 72%;
+      }
+      .agriculture-services{
+        height: auto;
+        padding: 50px 0;
+      }
+      .healthy-food-image img{
+        margin-bottom: 20px;
+      }
+      .services-colmun .services-colmun-images img{
+        width: 100%;
+      }
+      .services-colmun{
+        padding: 20px;
+      }
+      .navbar-brand img{
+        width: 50%;
+      }
+
+      .header{
+        display: none;
+      }
+      .header-icon{
+        display: none;
+      }
+      #mynav{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        z-index: 999;
+      }
+
+    .hamber {
+        display: block;
+        border: 1px solid #000000;
+        padding: 3px 15px;
+    }
+    .hamber a{
+      color: #000000!important;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    #navbarSupportedContent ul .nav-item{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      padding: 10px 0;
+      border:1px solid #green;
+    }
+
+    .input-contant i {
+      bottom: -9px!important;
+    }
+    }
+
+
+        /* ======== media 576px css start ======== */
+
+        @media (min-width:361px) and (max-width:575px) {
+          .healthy-food::after{
+            display: none;
+          }
+          .about-banner{
+            padding: 50px 0 50px 0;
+          }
+          .banner-title h1 {
+            font-size: 40px;
+          }
+          .services-page{
+            margin-top: 50px;
+          }
+          .services-two__content img{
+            display: none;
+          }
+          .agriculture-services-heading h2 {
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 48px;
+            color: #ffffff;
+            font-family: 'DM Sans', sans-serif;
+            letter-spacing: -1px;
+            padding-top: 8px;
+            padding-bottom: 35px;
+            position: relative;
+            z-index: 9;
+        }
+        .agriculture-services-button a {
+              text-decoration: none;
+              padding: 14px 16px;
+              background: green;
+              color: #ffffff!important;
+              border-radius: 100px;
+              font-size: 14px;
+              font-family: 'DM Sans', sans-serif;
+              position: relative;
+              z-index: 9;
+              text-transform: capitalize;
+          }
+          .agriculture-services-heading h2::before {
+            top: -88px;
+            left: -10%;
+          }
+          .agriculture-services-heading h2::after {
+            left: 67%;
+            top: -88px;
+          }
+          .agriculture-services{
+            margin-top: 50px;
+            height: auto;
+            padding: 50px 0 50px 0;
+          }
+          .healthy-food{
+            margin-top: 50px;
+          }
+          .healthy-food-image img{
+            margin-bottom: 25px;
+          }
+          .healthy-food-tital {
+            padding-right: 1px;
+          }
+          .services {
+          margin: 50px 0px;
+      }
+      .services-para h2 {
+        font-size: 40px;
+      }
+      .footer {
+          margin-top: 0px;
+      }
+      .services-colmun{
+        padding: 20px 20px 20px 20px;
+      }
+
+          .healthy-food-tital h2 {
+            font-size: 40px;
+            line-height: 55px;
+          }
+
+          .healthy-food-image::after{
+            display: none;
+          }
+          .healthy-food-image{
+            padding-right: 0px;
+          }
+          .healthy-food-image img {
+            width: 100%;
+          }
+          .navbar-brand img{
+            width: 50%;
+          }
+
+          .header{
+            display: none;
+          }
+          .header-icon{
+            display: none;
+          }
+          #mynav{
+            position: sticky;
+            overflow: hidden;
+            top: 0;
+            z-index: 999;
+          }
+
+        .hamber {
+            display: block;
+            border: 1px solid #000000;
+            padding: 3px 15px;
+        }
+        .hamber a{
+          color: #000000!important;
+          font-size: 20px;
+          text-decoration: none;
+        }
+        #navbarSupportedContent ul .nav-item{
+          width: 100%;
+          position: relative;
+          text-align: center;
+          padding: 10px 0;
+          border:1px solid #green;
+        }
+
+        .input-contant i {
+          bottom: -9px!important;
+        }
+
+        }
+
+
+
+          /* ========= media 36px css start ======= */
+
+          @media (min-width:321px) and (max-width:360px) {
+            .healthy-food::after{
+              display: none;;
+            }
+            .services-background-images::after{
+              display: none;
+            }
+            .services-two__content img{
+              display: none;
+            }
+            .healthy-food-image::after{
+              display: none;
+            }
+            .agriculture-services-heading h2::before{
+              display: none;
+            }
+            .agriculture-services-heading h2::after{
+              display: none;
+            }
+            .services-page{
+              margin-top: 30px;
+            }
+            .healthy-food-image img{
+              width: 100%;
+              margin-bottom: 15px;
+            }
+            .agriculture-services-heading h2 {
+              font-size: 26px;
+              line-height: 40px;
+            }
+            .agriculture-services-button a{
+              font-size: 12px;
+              padding: 17px 14px;
+            }
+            .agriculture-services{
+              margin-top: 25px;
+              height: auto;
+              padding: 30px 0px 50px 0;
+            }
+            .healthy-food-image{
+              padding-right: 0;
+            }
+            .healthy-food{
+              margin-top: 25px;
+            }
+            .healthy-food-tital{
+              padding-right: 0px;
+              text-align: center;
+            }
+            .services-colmun{
+              padding: 20px;
+            }
+            .services{
+              margin: 30px 0;
+            }
+
+            .healthy-food-tital h2{
+              line-height: 56px;
+              font-size: 42px;
+            }
+            .about-banner{
+              padding: 30px 0;
+            }
+
+            .services-para h2 {
+              font-size: 38px;
+              line-height: 45px;
+            }
+            .navbar-brand img{
+              width: 50%;
+            }
+
+            .header{
+              display: none;
+            }
+            .header-icon{
+              display: none;
+            }
+            #mynav{
+              position: sticky;
+              overflow: hidden;
+              top: 0;
+              z-index: 999;
+            }
+
+          .hamber {
+              display: block;
+              border: 1px solid #000000;
+              padding: 3px 15px;
+          }
+          .hamber a{
+            color: #000000!important;
+            font-size: 20px;
+            text-decoration: none;
+          }
+          #navbarSupportedContent ul .nav-item{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            padding: 10px 0;
+            border:1px solid #green;
+          }
+
+          .input-contant i {
+            bottom: -9px!important;
+          }
+      }
+
+        /* ===== media 320px ==== */
+        @media (min-width:261px) and (max-width:320px) {
+          .healthy-food::after{
+            display: none;;
+          }
+          .services-background-images::after{
+            display: none;
+          }
+          .services-two__content img{
+            display: none;
+          }
+          .healthy-food-image::after{
+            display: none;
+          }
+          .agriculture-services-heading h2::before{
+            display: none;
+          }
+          .agriculture-services-heading h2::after{
+            display: none;
+          }
+          .services-page{
+            margin-top: 30px;
+          }
+          .healthy-food-image img{
+            width: 100%;
+            margin-bottom: 15px;
+          }
+          .agriculture-services-heading h2 {
+            font-size: 20px;
+            line-height: 35px;
+          }
+          .agriculture-services-heading p{
+            font-size: 15px;
+          }
+
+          .agriculture-services-button a{
+            font-size: 12px;
+            padding: 17px 14px;
+          }
+          .agriculture-services{
+            margin-top: 25px;
+            height: auto;
+            padding: 30px 0px 50px 0;
+          }
+          .healthy-food-image{
+            padding-right: 0;
+          }
+          .fd-col p {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 25px;
+            font-family: #000;
+            padding-left: 44px;
+            padding-right: 0px;
+            color: #fff;
+        }
+        .fd-col span {
+          padding-left: 46px;
+        }
+          .healthy-food{
+            margin-top: 25px;
+          }
+          .healthy-food-tital{
+            padding-right: 0px;
+            text-align: center;
+          }
+          .services-colmun{
+            padding: 20px;
+          }
+          .services{
+            margin: 30px 0;
+          }
+
+          .healthy-food-tital h2{
+            line-height: 56px;
+            font-size: 42px;
+          }
+          .about-banner{
+            padding: 30px 0;
+          }
+
+          .services-para h2 {
+            font-size: 38px;
+            line-height: 45px;
+          }
+
+          .navbar-brand img{
+            width: 50%;
+          }
+          .header{
+            display: none;
+          }
+          .header-icon{
+            display: none;
+          }
+          #mynav{
+            position: sticky;
+            overflow: hidden;
+            top: 0;
+            z-index: 999;
+          }
+
+        .hamber {
+            display: block;
+            border: 1px solid #000000;
+            padding: 3px 15px;
+        }
+        .hamber a{
+          color: #000000!important;
+          font-size: 20px;
+          text-decoration: none;
+        }
+        #navbarSupportedContent ul .nav-item{
+          width: 100%;
+          position: relative;
+          text-align: center;
+          padding: 10px 0;
+          border:1px solid #green;
+        }
+
+
+
+        .input-contant i {
+          bottom: -9px!important;
+          left: 83%;
+        }
+      }
